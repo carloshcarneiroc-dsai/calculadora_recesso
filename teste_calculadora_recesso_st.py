@@ -20,7 +20,7 @@ opcao_recesso = st.sidebar.selectbox(
 
 # Definição da data limite com base na escolha
 if opcao_recesso == "Natal":
-    end_date = datetime.date(2026, 12, 21)
+    end_date = datetime.date(2026, 12, 18)
 else:
     end_date = datetime.date(2026, 12, 24)
 
